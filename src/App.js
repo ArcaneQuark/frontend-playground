@@ -10,17 +10,17 @@ import Theme from 'Theme';
 
 export default function App() {
   return (
-  <React.StrictMode>
-    <BrowserRouter>
-      <Provider store={Store}>
-        <ThemeProvider theme={Theme}>
-          <CssBaseline />
-          <div className='App'>
-            <Router />
-          </div>
-        </ThemeProvider>
-      </Provider>
-    </BrowserRouter>
-  </React.StrictMode>
+    <React.StrictMode>
+      <BrowserRouter>
+        <Provider store={Store}>
+          <ThemeProvider theme={Theme}>
+            <CssBaseline />
+            <div className='App'>
+              <Router />
+            </div>
+          </ThemeProvider>
+        </Provider>
+      </BrowserRouter>
+    </React.StrictMode>
   );
 }

@@ -5,4 +5,8 @@ const sample = {
   status: `${baseUrl}/status`
 };
 
+const test = {
+  lovecraft: `localhost:8000/lovecraft`
+}
+
 export default sample;
